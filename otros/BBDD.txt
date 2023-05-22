@@ -1,0 +1,10 @@
+
+USE [AdventureWorks2016] 
+SELECT * FROM Person.Person--Esta tabla almacena información sobre personas, como nombres, direcciones, números de teléfono, etc.
+SELECT * FROM Sales.Customer--Contiene información sobre los clientes de la empresa, como nombres, direcciones, números de teléfono, información de contacto, etc.
+SELECT * FROM Sales.SalesOrderHeader--Almacena detalles sobre las órdenes de venta, como fechas, direcciones de envío, información de pago, etc.
+SELECT * FROM Sales.SalesOrderDetail--Esta tabla contiene información detallada sobre los productos vendidos en cada orden de venta, como la cantidad, el precio unitario, descuentos, etc.
+SELECT * FROM Production.Product--Contiene información sobre los productos que la empresa vende, como nombres, números de producto, descripciones, etc.
+SELECT * FROM HumanResources.Employee--Esta tabla almacena información sobre los empleados de la empresa, como nombres, direcciones, información de contacto, etc.
+SELECT * FROM Purchasing.PurchaseOrderHeader--Almacena detalles sobre las órdenes de compra realizadas por la empresa, como fechas, direcciones de envío, información de pago, etc.
+SELECT * FROM Purchasing.PurchaseOrderDetail--Esta tabla contiene información detallada sobre los productos comprados en cada orden de compra, como la cantidad, el precio unitario, descuentos, etc.
