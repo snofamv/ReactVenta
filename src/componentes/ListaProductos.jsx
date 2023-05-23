@@ -1,19 +1,26 @@
 import { Container, Table, Button, Form, InputGroup } from 'react-bootstrap'
 import { useEffect, useState } from 'react';
-import {datosJSON} from '../datos/datos'
+import { Leer } from './Datos'
+
+
 function ListaProductos() {
-
+   
+    
     useEffect(() => {
-        setListaProductos(datosJSON);
-
-        //localStorage.setItem("lista", JSON.stringify(datos));
+        const Leer2 = () => {
+            const fs = require('fs');
+            const datosArchivo = fs.readFileSync('./archivo.json');
+            const res = JSON.parse(datosArchivo);
+            return res;
+        
+        }
+        console.log(Leer2)
     }, [])
 
 
 
     const [listaProductos, setListaProductos] = useState([]);
     const [busqueda, setBusqueda] = useState("");
-
     const cls = () => {
         console.clear()
         setBusqueda("");

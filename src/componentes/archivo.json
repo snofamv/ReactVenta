@@ -1,0 +1,81 @@
+{
+    "productos": [
+        {
+            "id": "1",
+            "codigo": "00000",
+            "nombre": "vino Tinto",
+            "valor": "1000",
+            "stock": "10"
+        },
+        {
+            "id": "2",
+            "codigo": "00001",
+            "nombre": "galleta",
+            "valor": "1000",
+            "stock": "6"
+        },
+        {
+            "id": "3",
+            "codigo": "00002",
+            "nombre": "chocolate",
+            "valor": "1000",
+            "stock": "22"
+        },
+        {
+            "id": "4",
+            "codigo": "00003",
+            "nombre": "detergente",
+            "valor": "1000",
+            "stock": "15"
+        },
+        {
+            "id": "5",
+            "codigo": "00004",
+            "nombre": "tuyo",
+            "valor": "1000",
+            "stock": "100"
+        },
+        {
+            "id": "6",
+            "codigo": "00005",
+            "nombre": "Toddy",
+            "valor": "1000",
+            "stock": "100"
+        },
+        {
+            "id": "7",
+            "codigo": "00006",
+            "nombre": "Frac",
+            "valor": "1000",
+            "stock": "100"
+        },
+        {
+            "id": "8",
+            "codigo": "00007",
+            "nombre": "PapaFrita",
+            "valor": "1000",
+            "stock": "10"
+        },
+        {
+            "id": "9",
+            "codigo": "00008",
+            "nombre": "Jugo Watts",
+            "valor": "1000",
+            "stock": "106"
+        },
+        {
+            "id": "10",
+            "codigo": "00009",
+            "nombre": "Cafe Nescafe",
+            "valor": "1000",
+            "stock": "6"
+        },
+        {
+            "id": "15",
+            "codigo": "00099",
+            "nombre": "MONSTER ENERGY",
+            "valor": "1800",
+            "stock": "6"
+        }
+    ]
+}
